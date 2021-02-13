@@ -27,8 +27,8 @@ public class Solution {
       totalNumberPizza = Integer.parseInt(splited[0]);
       //team divide
       totalTwoTeam = Integer.parseInt(splited[1]); //total two team
-      totalThreeTeam = Integer.parseInt(splited[2]);
-      totalFourTeam = Integer.parseInt(splited[3]);
+      totalThreeTeam = Integer.parseInt(splited[2]); //total number of 3 teams
+      totalFourTeam = Integer.parseInt(splited[3]); //total number of 4 team
 
       pizzas = new Pizza[totalNumberPizza];
       //Creating Objects of Pizza
